@@ -34,6 +34,8 @@ If Ruby throws an error such as this:
 	
 It means one or more of the Ruby Gems are not installed. To install a Ruby Gem type the following into your command line:
 	sudo gem install nanoc compass adsf kramdown
+	
+If you run the the check.rb script once more your output will look like this:
 
 Usage
 -----

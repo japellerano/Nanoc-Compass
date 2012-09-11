@@ -1,5 +1,5 @@
 # Required gems for this package
-gems = ["nanoc", "compass", "adsf", "kramdown", "rails"]
+gems = ["nanoc", "compass", "adsf", "kramdown"]
 
 # Get the size of the array
 gemlen = gems.length - 1
