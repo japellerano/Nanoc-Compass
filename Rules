@@ -12,10 +12,8 @@
 #   “content/about.html”). To select all children, grandchildren, … of an
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
-require "compass"
-Compass.add_project_configuration 'config.rb'
 
-compile '/stylesheet/' do
+compile '/sass/' do
   # don’t filter or layout
 end
 
@@ -28,7 +26,7 @@ compile '*' do
   end
 end
 
-route '/stylesheet/' do
+route '/css/' do
   '/style.css'
 end
 
