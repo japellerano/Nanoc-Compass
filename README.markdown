@@ -27,12 +27,14 @@ Unfiniti has created a graphical user interface (GUI) for RVM on OS X and the Li
 - [JewelryBox](http://unfiniti.com/software/mac/jewelrybox)
 
 Once Ruby is installed check to see if you have the necessary Ruby gems installed. Open up a Terminal or Command Line window and navigate to the directory where this package has been unzipped. In the command prompt type:
+
     ruby check.rb
 
 If Ruby throws an error such as this:
     /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- rails (LoadError)
 	
 It means one or more of the Ruby Gems are not installed. To install a Ruby Gem type the following into your command line:
+
     sudo gem install nanoc compass adsf kramdown
 	
 If you run the the check.rb script once more your output will look like this:
