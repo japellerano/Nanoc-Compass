@@ -31,7 +31,7 @@ Once Ruby is installed check to see if you have the necessary Ruby gems installe
     ruby check.rb
 
 If Ruby throws an error such as this:
-    /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- rails (LoadError)
+`/Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in (`)require('): cannot load such file -- rails (LoadError)`
 	
 It means one or more of the Ruby Gems are not installed. To install a Ruby Gem type the following into your command line:
 
