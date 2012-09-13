@@ -1,0 +1,127 @@
+Crashlog created at 2012-09-12 21:26:18 -0400
+
+=== MESSAGE:
+
+Errno::EADDRINUSE: Address already in use - bind(2)
+
+=== COMPILATION STACK:
+
+  (empty)
+
+=== BACKTRACE:
+
+  0. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/utils.rb:85:in `initialize'
+  1. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/utils.rb:85:in `new'
+  2. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/utils.rb:85:in `block in create_listeners'
+  3. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/utils.rb:82:in `each'
+  4. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/utils.rb:82:in `create_listeners'
+  5. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:82:in `listen'
+  6. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:70:in `initialize'
+  7. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:45:in `initialize'
+  8. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:10:in `new'
+  9. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:10:in `run'
+  10. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/commands/view.rb:51:in `run'
+  11. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  12. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
+  13. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  14. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/command_runner.rb:13:in `call'
+  15. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  16. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  17. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  18. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  19. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
+  20. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli.rb:47:in `block in run'
+  21. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
+  22. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  23. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib/nanoc/cli.rb:44:in `run'
+  24. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/bin/nanoc:19:in `<top (required)>'
+  25. /Users/server/.rvm/gems/ruby-1.9.3-p194/bin/nanoc:19:in `load'
+  26. /Users/server/.rvm/gems/ruby-1.9.3-p194/bin/nanoc:19:in `<main>'
+  27. /Users/server/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+  28. /Users/server/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+=== VERSION INFORMATION:
+
+nanoc 3.4.0 © 2007-2012 Denis Defreyne.
+Running ruby 1.9.3 (2012-04-20) on x86_64-darwin11.4.0 with RubyGems 1.8.24.
+
+=== INSTALLED GEMS:
+
+  adsf 1.1.1
+  bundler 1.1.5
+  capistrano 2.13.0
+  chunky_png 1.2.6
+  colored 1.2
+  compass 0.12.2
+  cri 2.3.0
+  fssm 0.2.9
+  highline 1.6.13
+  kramdown 0.13.8
+  nanoc 3.4.0
+  net-scp 1.0.4
+  net-sftp 2.0.5
+  net-ssh 2.5.2
+  net-ssh-gateway 1.1.0
+  rack 1.4.1
+  rake 0.9.2.2
+  rubygems-bundler 1.0.6
+  rvm 1.11.3.5
+  sass 3.2.1
+  susy 1.0
+
+=== ENVIRONMENT:
+
+Apple_PubSub_Socket_Render => "/tmp/launch-1jLulO/Render"
+Apple_Ubiquity_Message => "/tmp/launch-xhcsyr/Apple_Ubiquity_Message"
+COMMAND_MODE => "unix2003"
+COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/SERVER/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_SOCKET => "/tmp/launch-ZZtFOV/ServiceProcessSocket"
+DISPLAY => "/tmp/launch-bLSrNA/org.x:0"
+GEM_HOME => "/Users/server/.rvm/gems/ruby-1.9.3-p194"
+GEM_PATH => "/Users/server/.rvm/gems/ruby-1.9.3-p194:/Users/server/.rvm/gems/ruby-1.9.3-p194@global"
+HOME => "/Users/server"
+IRBRC => "/Users/server/.rvm/rubies/ruby-1.9.3-p194/.irbrc"
+LANG => "en_US.UTF-8"
+LOGNAME => "server"
+MY_RUBY_HOME => "/Users/server/.rvm/rubies/ruby-1.9.3-p194"
+OLDPWD => "/Users/server/Development"
+PATH => "/Users/server/.rvm/gems/ruby-1.9.3-p194/bin:/Users/server/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/server/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/server/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"
+PWD => "/Users/server/Development/nanoc-compass"
+RUBY_VERSION => "ruby-1.9.3-p194"
+SHELL => "/bin/bash"
+SHLVL => "1"
+SSH_AUTH_SOCK => "/tmp/launch-fEOQFo/Listeners"
+TERM => "xterm-256color"
+TERM_PROGRAM => "Apple_Terminal"
+TERM_PROGRAM_VERSION => "303.2"
+TERM_SESSION_ID => "6CDA434D-1EAB-4C16-BFB4-26D5B0D35FA4"
+TMPDIR => "/var/folders/7v/ydy50yvx78g_pp57qv93p4rw0000gn/T/"
+USER => "server"
+_ => "/Users/server/.rvm/gems/ruby-1.9.3-p194/bin/nanoc"
+__CF_USER_TEXT_ENCODING => "0x1F5:0:0"
+__array_start => "0"
+_first => "0"
+_second => "1"
+escape_flag => "1"
+rvm_bin_path => "/Users/server/.rvm/bin"
+rvm_path => "/Users/server/.rvm"
+rvm_prefix => "/Users/server"
+rvm_version => "1.15.5 (stable)"
+
+=== $LOAD_PATH:
+
+  0. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib
+  1. /Users/server/.rvm/gems/ruby-1.9.3-p194@global/gems/rubygems-bundler-1.0.6/lib
+  2. /Users/server/.rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.1.5/lib
+  3. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/colored-1.2/lib
+  4. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/cri-2.3.0/lib
+  5. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/nanoc-3.4.0/lib
+  6. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib
+  7. /Users/server/.rvm/gems/ruby-1.9.3-p194/gems/adsf-1.1.1/lib
+  8. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1
+  9. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby/1.9.1/x86_64-darwin11.4.0
+  10. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/site_ruby
+  11. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/vendor_ruby/1.9.1
+  12. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/vendor_ruby/1.9.1/x86_64-darwin11.4.0
+  13. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/vendor_ruby
+  14. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1
+  15. /Users/server/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/x86_64-darwin11.4.0
